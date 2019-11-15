@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_close"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_back"/>
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/titleText"
+            android:text="支付"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divideLine"
+        android:layout_marginHorizontal="8dp"/>
+
+    <TextView
+        android:id="@+id/tv_content"
+        style="@style/textView"
+        android:visibility="gone"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginVertical="30dp"
+        android:layout_marginHorizontal="16dp">
+
+        <com.example.paydialogutil.PwdView
+            android:id="@+id/et_content"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/shape_pwd"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_left"
+            style="@style/clickableText"
+            android:visibility="gone"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView
+            android:id="@+id/tv_center"
+            style="@style/clickableText"
+            android:visibility="gone"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="16dp"/>
+
+        <TextView
+            android:id="@+id/tv_right"
+            style="@style/clickableText"
+            android:visibility="gone"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"/>
+
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <GridView
+        android:id="@+id/gv_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:verticalSpacing="1dp"
+        android:horizontalSpacing="1dp"
+        android:paddingTop="0.7dp"
+        android:background="@color/divideLine"/>
+
+</LinearLayout>

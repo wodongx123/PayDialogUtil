@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="divideLine">#dfdddf</color>
+    <color name="text_main">#555555</color>
+    <color name="text_blue">#3a76ed</color>
+    <color name="button_line">#F7F7F7</color>
+
+    <color name="btn_disabled">#e4e6ef</color>
+    <color name="btn_normal">#fffeff</color>
+    <color name="btn_clicked">#cacdda</color>
+</resources>
