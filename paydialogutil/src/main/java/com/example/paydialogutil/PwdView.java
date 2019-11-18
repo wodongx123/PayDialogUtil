@@ -56,7 +56,6 @@ public class PwdView extends EditText {
 
     @Override
     protected void onDraw(Canvas canvas) {
-        super.onDraw(canvas);
         width = getWidth();
         height = getHeight();
 

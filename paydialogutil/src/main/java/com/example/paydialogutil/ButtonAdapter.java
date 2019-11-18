@@ -46,7 +46,6 @@ public class ButtonAdapter extends BaseAdapter {
 
     @Override
     public View getView(final int position, View convertView, ViewGroup parent) {
-        Log.i(TAG, "getView: " + position +  "  " + convertView + "   " + parent);
         ViewHolder viewHolder = null;
         if (convertView == null) {
             convertView = LayoutInflater.from(mContext).inflate(R.layout.item_button, null);
